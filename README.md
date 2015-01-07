@@ -4,9 +4,13 @@ Getting-and-Cleaning-Data
 run_analysis.R does the following:
 
 1) imports data from a dataset which collected data from the accelerometers from the Samsung Galaxy S smartphones
+
 2) applies labels to these various datasets including the subject code and activity name associated with the observations
+
 3) merges the training and test datasets
+
 4) eliminates all but the mean & std measurements from the merged dataset
+
 5) takes the mean of those measurements by activity name and subject code and outputs them in a tidy dataset (one column per variable and one observation per row)
 
 Below is more information about the measurements:
